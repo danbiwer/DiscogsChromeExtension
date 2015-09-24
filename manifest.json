@@ -1,0 +1,26 @@
+{
+  "name": "Discogs Search",
+  "author": "Daniel Biwer",
+  "description": "Add support to the omnibox to search the Discogs website",
+  "omnibox": {
+    "keyword": "disc"
+  },
+  "browser_action":{
+    "default_icon":"on.png"
+
+  },
+  "permissions": [
+    "contextMenus","http://www.dbiwer.com/*/"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128":"icon128.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "version": "1.0",
+  "minimum_chrome_version": "9",
+  "manifest_version": 2
+}

@@ -5,7 +5,7 @@ $tag = $_REQUEST["tag"];
 
 $dbhost = 'localhost';
 $dbuser = 'danbiwer_discogs';
-$dbpass = '63$kFOgUI~cU';
+$dbpass = '';
 $conn = mysql_connect($dbhost,$dbuser,$dbpass);
 if(! $conn){
 	die('Could not connect: ' . mysql_error());
